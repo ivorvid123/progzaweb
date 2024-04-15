@@ -1,0 +1,66 @@
+root{
+    --color-primary:#294879;
+    -font: "Inter", sans-serif;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: var(--font);
+}
+
+h1{
+    font-size: 21px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 560px;
+
+}
+.container-login input, .container-login button {
+    width: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 0.5px #294899;
+}
+.container-login button{
+    width: 100%;
+    background-color: #294879;
+    color: white;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
